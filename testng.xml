@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="1" parallel="tests"
+	configfailurepolicy="continue">
+	<parameter name="Device" value="Web" />
+	<parameter name="browser" value="Chrome" />
+	<parameter name="Suite" value="testng" />
+	<test name="SampleTest">
+		<parameter name="className" value="SampleTest2" />
+		<classes>
+			<class name="com.qa.tests.SampleTest2">
+				<methods>
+					<include name='open_Google' />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

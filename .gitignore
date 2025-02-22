@@ -1,0 +1,15 @@
+# Build artifacts
+/target/
+/bin/
+
+# Logs
+/logs/
+*.log
+
+# Test output
+/test-output/
+/Report.html
+
+# IDE-specific files
+.classpath
+.settings/
